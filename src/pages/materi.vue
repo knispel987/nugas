@@ -1,6 +1,6 @@
 <template>
  <div class="hover:shadow-2xl p-9 transition-all duration-[400ms] space-y-6">
-  <img class="flex w-full" src="../images/multi-media1.svg" alt="" />
+  <img class="flex w-full" src="../images/multi-media1.svg" alt="loading..." />
 
   <div class="space-y-6">
    <h1 class="text-5xl">I. Pengertian Multimedia</h1>

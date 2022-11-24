@@ -3,7 +3,7 @@
   <img
    class="place-content-center"
    src="../images/SaintLukes_InteractiveWall_1-1400x840.svg"
-   alt=""
+   alt="loading..."
   />
   <div class="space-y-6">
    <h1>A. Pengertian Multimedia Pembelajaran Interaktif (MPI)</h1>
