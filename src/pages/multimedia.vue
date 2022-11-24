@@ -1,7 +1,7 @@
 <template>
  <div class="hover:shadow-2xl p-9 transition-all duration-[400ms] space-y-6">
   <img
-   class="flex place-content-center"
+   class="place-content-center"
    src="../images/SaintLukes_InteractiveWall_1-1400x840.svg"
    alt=""
   />

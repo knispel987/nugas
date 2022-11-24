@@ -1,31 +1,13 @@
 <script setup></script>
 <template>
- <nav class="w-60">
-  <ul class="hover:[&>*]:pl-2 [&>*]:duration-300 bg-gray-800 [&>*]:text-white space-y-3">
-   <li>
-    <router-link></router-link>
-   </li>
-   <li>
-    <router-link></router-link>
-   </li>
-   <li>
-    <router-link></router-link>
-   </li>
-   <li>
-    <router-link></router-link>
-   </li>
-   <li>
-    <router-link></router-link>
-   </li>
-   <li>
-    <router-link></router-link>
-   </li>
-   <li>
-    <router-link></router-link>
-   </li>
-   <li>
-    <router-link></router-link>
-   </li>
+ <nav class="fixed w-60 h-full">
+  <ul
+   class="text-4xl [&>*]:capitalize focus:[&>*]:outline focus:[&>*]:outline-1 hover:[&>*]:bg-gray-200 [&>*]:p-2 [&>*]:w-full [&>*]:flex h-full text-white bg-sky-400 overflow-auto"
+  >
+   <router-link :to="{ name: 'multimedia' }">multimedia</router-link>
+   <router-link :to="{ name: 'materi' }">materi</router-link>
+   <router-link :to="{ name: 'credits' }">credits</router-link>
+   <router-link :to="{ name: 'about' }">about</router-link>
   </ul>
  </nav>
 </template>
